@@ -7,3 +7,6 @@ git push -u origin master
 
 Caching your Github Password in Git
 git config --global credential.helper osxkeychain
+
+Pull data from remote branch
+
