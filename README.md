@@ -9,7 +9,7 @@ Caching your Github Password in Git
 * git config --global credential.helper osxkeychain
 
 Check update in remote branch:
-* git fetch origin && git diff origin/master **or**
+* git fetch origin && git diff origin/master
 * git remote update && git status
 
 Pull data from remote branch
