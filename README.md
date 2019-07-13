@@ -8,6 +8,10 @@ Github Connection Set Up:
 Caching your Github Password in Git
 * git config --global credential.helper osxkeychain
 
+Check update in remote branch:
+* git fetch origin && git diff origin/master **or**
+* git remote update && git status
+
 Pull data from remote branch
-* git pull (git fetch origin & git merge origin/master)
-* git pull -r (git pull & git rebase) -- moves commit of one branch on top of the other instead of creating new commit for the merge
+* git pull (git fetch origin && git merge origin/master)
+* git pull -r (git pull && git rebase)
